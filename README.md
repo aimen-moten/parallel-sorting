@@ -7,8 +7,7 @@ source.
 You need to write a program that does the following:
 - Prompt the user to enter an integer N. You can assume that N is greater than 0.
 - Generate a list (array, vector, ArrayList; any one-dimensional data structure is fine) of
-random integers containing N elements; each random value should be between 1 and N *
-10. For example, if the user enters 1000, it should create an array containing 1000 elements,
+random integers containing N elements; each random value should be between 1 and N * 10. For example, if the user enters 1000, it should create an array containing 1000 elements,
 each with a random value between 1 and 10,000.
 - Split the list into four equal size pieces (as equal as you can).
 - Start four threads, and have each thread sort one of the quarter-size lists.
